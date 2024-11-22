@@ -1,6 +1,7 @@
 source "https://rubygems.org"
 
-gem 'rack-cors'
+gem 'rack-cors' 
+
 
 gem 'dotenv-rails', groups: [:development, :test]
 
