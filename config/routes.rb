@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   namespace :api do
     namespace :v1 do
-      resources :tickets, only: [:index, :create, :update] do
+      resources :tickets, only: [:index, :create, :update, :show, :destroy] do
         resources :messages, only: [:index, :create]
       end
 
