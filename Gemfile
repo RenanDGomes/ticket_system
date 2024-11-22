@@ -6,7 +6,7 @@ gem 'rack-cors'
 gem 'dotenv-rails', groups: [:development, :test]
 
 group :development, :test do
-  gem 'rspec-rails', '~> 6.0.0'
+  gem 'rspec-rails', '~> 7.1.0'
 end
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 8.0.0"
